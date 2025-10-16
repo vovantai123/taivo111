@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: taivoo1o1111
+    name: taivo111
     env: python
     plan: free
     buildCommand: |
