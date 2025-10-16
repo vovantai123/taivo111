@@ -10,4 +10,4 @@ pip install -r requirements.txt
 PYTHONUNBUFFERED = "1"
 
 [service]
-startCommand = "gunicorn split:app"
+startCommand = "gunicorn split:app --bind 0.0.0.0:$PORT"
